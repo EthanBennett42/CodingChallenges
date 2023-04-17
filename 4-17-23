@@ -1,0 +1,10 @@
+function possibleBonus(a, b){
+    
+    let diff = b - a;
+
+    if(diff <= 6  && diff > 0){
+        return true;
+    }else{
+        return false;
+    }
+}
